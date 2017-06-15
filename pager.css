@@ -1,0 +1,127 @@
+.pagination a.active, .pagination a.prev, .pagination a.next {
+    color: #FFF;
+    background-color: #ed6591;
+}
+.pagination a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 8px;
+    text-align: center;
+    color: #808080;
+    background-color: #FFF;
+    font-size: 14px;
+    overflow:hidden;
+}
+.pagination .action-wrap {
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 31px;
+    vertical-align: top;
+}
+.pagination .apostrophe {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+    margin-right: 8px;
+    overflow:hidden;
+}
+
+
+
+.pagination {
+    height:36px;
+    margin-top:45px ;
+    padding:0;
+    width:1000px;
+}
+
+.pagination li{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 8px;
+    text-align: center;
+    color: #666;
+    background-color: #FFF;
+    font-size: 14px;
+    overflow:hidden;
+    padding:0;
+    cursor: pointer;
+}
+.pages .pgAfter{
+    color:#333;
+}
+.pages .pgpre{
+    color:#333;
+}
+.pagination .pages{
+    width:720px;
+}
+.pagination .pgNext{
+    width:50px;
+}
+.pagination .pgCurrent{
+    height:36px;
+    width:36px;
+    background:#2899e6;
+    color:#fff;
+}
+.pagination .pgEmpty{
+    color:#d4d4d4;
+    cursor:default;
+}
+
+.newPage-container{
+
+}
+.newPagination li{
+    color: #606062;
+}
+.newPagination .pgEmpty{
+    color: #AEAEB0;
+}
+.pages{
+    float:left;
+}
+.pgJump{
+    float:left;
+    color:#9C9FA4;
+    margin-top:16px ;
+}
+.pgJumpNumber{
+    width:30px;
+    height: 30px;
+    text-align: center;
+    outline: none;
+}
+.pgJumpSubmit{
+    display: inline-block;
+    width: 50px;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 8px;
+    text-align: center;
+    color: #808080;
+    background: none;
+   /* background-color: #FFF;*/
+    font-size: 16px;
+    overflow: hidden;
+    padding: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.pages .pgFirst,.pages .pgLast{
+    /*display: none;*/
+}
+.pgTxCenter{
+    text-align: center;
+}
